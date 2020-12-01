@@ -6,10 +6,11 @@
 }
 
 .login > img {
-  width: 100%;
+  width: 50%;
 }
 
 .login > a {
+  margin-bottom: 200px;
   padding: 20px;
   background-color: #1db954;
   border-radius: 99px;
