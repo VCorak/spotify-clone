@@ -5,15 +5,15 @@ import { Avatar } from "@material-ui/core";
 import { useDataLayerValue } from "./DataLayer";
 
 function Header() {
-  const [{ user }, dispatch] = useDataLayerValue();
+  const [{ user }] = useDataLayerValue();
 
   return (
     <div className="header">
-      <div className="header_left">
+      <div className="header__left">
         <SearchIcon />
         <input placeholder="Search for Artists, Songs..." type="text" />
       </div>
-      <div className="header_right">
+      <div className="header__right">
         <Avatar src={user?.images[0]?.url} alt={user?.display_name} />
         <h4>Valentina Corak</h4>
       </div>

@@ -13,7 +13,7 @@ function Footer() {
   return (
     <div className="footer">
       <div className="footer__left">
-        <img className="footer__albumlogo" src="" />
+        <img className="footer__albumlogo" src="" alt="album" />
         <div className="footer__songinfo">
           <h4>Album name</h4>
           <p>Artist name</p>

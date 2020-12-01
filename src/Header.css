@@ -4,7 +4,7 @@
   margin-bottom: 30px;
 }
 
-.header_left {
+.header__left {
   background-color: white;
   color: gray;
   border-radius: 30px;
@@ -15,16 +15,16 @@
   min-width: 70px;
 }
 
-.header_left > input {
+.header__left > input {
   border: none;
   width: 100%;
 }
 
-.header_right {
+.header__right {
   display: flex;
   align-items: center;
 }
 
-.header_right > h4 {
+.header__right > h4 {
   margin-left: 10px;
 }

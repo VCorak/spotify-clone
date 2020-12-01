@@ -9,7 +9,7 @@ import { useDataLayerValue } from "./DataLayer";
 const spotify = new SpotifyWebApi();
 
 function App() {
-  const [{ user, token }, dispatch] = useDataLayerValue(); // Dispatch is like a gun, to update and change the Data layer...
+  const [{ token }, dispatch] = useDataLayerValue(); // Dispatch is like a gun, to update and change the Data layer...
 
   //Runs code based on a given condition [name, age, occupation...]
   useEffect(() => {
@@ -46,7 +46,7 @@ function App() {
         });
       });
     }
-  }, []);
+  }, [dispatch]);
 
   // BEM
   return (
